@@ -53,7 +53,6 @@ career_time/
 │  ├─ career_time/
 │  │  ├─ __init__.py
 │  │  ├─ main.py
-│  │  ├─ linkedin_parser.py
 │  │  ├─ experience.py
 │  │  ├─ data_providers.py
 ├─ data/

@@ -1,8 +1,7 @@
 import json
 import os
-from career_time.linkedin_parser import parse_linkedin_ids
 from career_time.experience import calculate_total_years
-from career_time.data_providers import load_sample_data, fetch_talent_data
+from career_time.data_providers import load_sample_data, fetch_talent_data, parse_linkedin_ids
 
 def read_linkedin_urls(file_path: str) -> list[str]:
     with open(file_path, 'r', encoding='utf-8') as f:
