@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "career_time"
+version = "0.1.0"
+description = "A tool to calculate total full-time working experience from LinkedIn profiles using sample Coresignal data."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name="Orkhan Shirinov", email="orkhan.shirinow@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+career_time = "career_time.main:main"
+
