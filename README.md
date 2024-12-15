@@ -29,11 +29,15 @@ CareerTime is a simple Python application that calculates the total full-time wo
     ```
 4. The output will be printed to the console in JSON format.
 
-## TODO
+## Final Notes and TODOs
 
 This project is partially implemented to showcase the main logic of extracting work experience of talents in a given JSON data.
-You can see the main ideas to expand, and improve the functionality, and decrease the cognitive complexity of the project:
+In the below documentations you can find out:
+- The main ideas to expand and improve the functionality,
+- Decrease the cognitive complexity,
+- Decisions and Assumptions
 
+[NOTES.md](NOTES.md)
 [TODO list](TODO.md)
 
 ## Project Structure
